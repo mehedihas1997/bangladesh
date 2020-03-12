@@ -70,10 +70,10 @@
     font-size: 1vw;
     display: block;
     margin-top: 10px;
-    color: #3e006d;
+    color: black;
+    opacity: .90;
     font-weight: bold;
 }
-
 .card {
     display: block;
     position: relative;
@@ -98,20 +98,21 @@
     width: 1.8em;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
+    box-shadow: 2px 2px 5px black;
 }
 
 .card__bottom {
-    color: #ec1e25;
+    color: #70de2d;
     position: absolute;
     top: 50%;
     left: 0;
     border-top: solid 1px #70de2d;
-    background: #70de2d;
+    background: #ec1e25;
     border-radius: 0 0 0.15em 0.15em;
     pointer-events: none;
     overflow: hidden;
+    opacity: .90;
 }
-
 .card__bottom::after {
     display: block;
     margin-top: -0.72em;
